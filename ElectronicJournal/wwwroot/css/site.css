@@ -1,0 +1,340 @@
+﻿.signUp_button {
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #ffff;
+    margin: 0px 16px 10px 0px;
+    font-weight: 600;
+    background-color: #F1916D;
+    border: none;
+    font-size: 15px;
+}
+
+.registration_header {
+    background-color: #473E66;
+    padding: 10px;
+    width: 400px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+}
+
+.add_date_header {
+    background-color: #473E66;
+    padding: 10px;
+    display: flex;
+}
+
+.add_date_title {
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #BD83B8;
+}
+
+.add_date_body {
+    background-color: #F5D7DB;
+    padding-top: 16px;
+}
+
+.registration_body {
+    background-color: #F5D7DB;
+    border-radius: 0px 0px 8px 8px;
+    width: 400px;
+    padding-top: 16px;
+}
+
+.register-input {
+    border: solid #190019;
+    background-color: transparent;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.date_input {
+    border: solid #190019;
+    background-color: transparent;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.register_text {
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #BD83B8;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #06142E;
+    margin: 0px 0px;
+}
+
+input {
+    display: block;
+    padding: 10px;
+}
+
+.hidden_practice_schedule a {
+    display: inline-block;
+}
+
+
+.teachers_schedule_btn {
+    width: 87%;
+    border: 0px;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 5px;
+    background: rgb(128,123,121);
+    background: linear-gradient(59deg, rgba(128,123,121,1) 0%, rgba(72,73,98,1) 100%);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 19px;
+    padding-left: 20px;
+    text-align: left;
+    position: relative
+}
+
+    .teachers_schedule_btn :hover {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .subject_btn_title {
+        text-decoration: none;
+        color: #FAFAFA;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+    }
+
+.teachers_schedule_btn div {
+    display: inline-block;
+}
+
+    .teachers_schedule_btn:hover {
+        color: #FAFAFA;
+    }
+
+.fixed-button {
+    z-index: 99;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: rgb(128,123,121);
+    background: linear-gradient(59deg, rgba(128,123,121,1) 0%, rgba(72,73,98,1) 100%);
+    color: #FAFAFA;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.fixed-button i {
+    position: relative;
+    top: 12px;
+}
+
+.group_list select {
+    width: 180px;
+    padding: 5px 0px 5px 10px;
+    border: 2px solid rgb(54,54,54);
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: grey;
+    font-weight: 600;
+}
+
+option {
+    color: rgb(54,54,54);
+}
+
+.user_list select {
+    width: 180px;
+    padding: 5px 0px 5px 10px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: grey;
+    font-weight: 600;
+}
+
+.grade_table {
+    border: 1px solid #ffff;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.grade_table th {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ffff;
+    color: #FAFAFA;
+}
+
+.burger_menu {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.burger_menu i {
+    color: #ffff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.main_header {
+    padding-top: 10px;
+    display: inline
+}
+
+.menu {
+    background-color: #F1916D;
+}
+
+.home_btn {
+    display: flex;
+}
+
+.add_user {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffff;
+}
+
+.add_user:hover {
+    color: #000000;
+}
+
+.role_list select {
+    width: 180px;
+    padding: 5px 0px 5px 10px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: transparent;
+    font-weight: 600;
+    color: grey;
+}
+
+.log_out {
+    border: none;
+    background-color: transparent;
+    color: #ffff;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.log_out:focus {
+    border: none;
+}
+
+.delete_user {
+    background-color: transparent;
+    border: none;
+}
+
+.delete_user i {
+    color: red;
+}
+
+.user_info {
+    background: rgb(128,123,121);
+    background: linear-gradient(59deg, rgba(128,123,121,1) 0%, rgba(72,73,98,1) 100%);
+    width: 87%;
+    border: 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 13px;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 19px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.user_info div {
+    display: inline-block;
+}
+
+.subject_block div {
+    display: inline-block;
+}
+
+.delete {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.delete_subject {
+    position: absolute;
+    right: 10px;
+}
+
+.error_text ul li::marker {
+    color: transparent;
+}
+
+.error_text { 
+    color: #ffff;
+    margin-top: 10px;
+}
+
+
+.inputs {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+}
+
+.add_date {
+    color: #FAFAFA;
+    text-decoration:none;
+}
+
+.add_date:hover {
+    color: #FAFAFA;
+}
+
+.add_date_modal {
+    background-color: transparent;
+    border: none;
+    color: #FAFAFA;
+}
+
+.date {
+    width: 0.1%;
+}
+
+.student_name {
+    width: 1%;
+}
+
+#weather-info {
+    color: white;
+}

@@ -1,0 +1,50 @@
+﻿@model ElectronicJournal.Models.AllModels
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="content">
+        <div class="container" align="center" style="position: absolute; top: 20%">
+            <div class="registration_header">
+                <h4 align="center" class="register_text mt-3" style="padding-bottom: 10px"><b>Добавить предмет</b></h4>
+            </div>
+            <div class="registration_body">
+                <form asp-action="CreateSubject" asp-controller="Home">
+                    <div class="validation text-light" style="margin-left: 35%" asp-validation-summary="ModelOnly"></div>
+                    <div class="form-group" align="left">
+                        <input type="text" name="subjectName" class="register-input" placeholder="Название предмета" autocomplete="off" required />
+                    </div>
+                    <div class="user_list form-group" align="left">
+                        <select name="userId" required>
+                            <option value="@null">Преподаватель</option>
+                            @foreach (var item in Model.UsersList)
+                            {
+                                <option value="@item.Id">@item.UserName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group" align="right">
+                        <button type="submit" class="signUp_button btn">Добавить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
